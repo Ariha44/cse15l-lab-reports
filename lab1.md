@@ -11,12 +11,11 @@
 
 
 2. Remotely Connecting
-  * If you are using a Windows device, please install [Git for Windows](https://gitforwindows.org/) and set VSCode's default terminal to use [Git Bash]([https://gitforwindows.org/](https://stackoverflow.com/a/50527994))
-  * Open VSCode's terminal and enter the Secure Shell Protocal command to remote to your course-specific account (replace the `zz` with your course specific account ID letters):
-    
-    `ssh cs15lsp23zz@ieng6.ucsd.edu`
-  * Read the instructions that show after entering the command to connect to the server. When asked for your password, enter the course account's password.
-  * Here is an example of a successful connection:
+
+ * If you are using a Windows device, please install [Git for Windows](https://gitforwindows.org/) and set VSCode's default terminal to use [Git Bash]([https://gitforwindows.org/](https://stackoverflow.com/a/50527994))
+ * Open VSCode's terminal and enter the Secure Shell Protocal command to remote to your course-specific account (replace the `zz` with your course specific account ID letters): `ssh cs15lsp23zz@ieng6.ucsd.edu`
+ * Read the instructions that show after entering the command to connect to the server. When asked for your password, enter the course account's password.
+ * Here is an example of a successful connection:
   ![Remote Connection](Connection.png)
 
 
