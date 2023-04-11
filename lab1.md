@@ -3,10 +3,10 @@
 ## Steps in Logging Into a Course-Specific Account on UCSD's ieng6 server
 
 1. Installing Visual Studio Code
-  * Install VSCode using their [official website](https://code.visualstudio.com/)
-  ![VS Code](vscode.png)
-  * Open the installed package and follow the setup instructions
-  * When it has finished installing, access VSCode by finding it in its set destination
+ * Install VSCode using their [official website](https://code.visualstudio.com/) ![VS Code](vscode.png)
+ * Open the installed package and follow the setup instructions
+ * When it has finished installing, access VSCode by finding it in its set destination
+
 2. Remotely Connecting
  * If you are using a Windows device, please install [Git for Windows](https://gitforwindows.org/) and set VSCode's default terminal to use [Git Bash]([https://gitforwindows.org/](https://stackoverflow.com/a/50527994))
  * Open VSCode's terminal and enter the Secure Shell Protocal command to remote to your course-specific account (replace the `zz` with your course specific account ID letters): `ssh cs15lsp23zz@ieng6.ucsd.edu`
