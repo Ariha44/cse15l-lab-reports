@@ -1,6 +1,6 @@
 # Lap Report 1
 
-## Steps in Logging Into a Course-Specific Account on UCSD’s ieng6 Server
+## Steps in Logging Into a Course-Specific Account on UCSD's ieng6 server
 
 1. Installing Visual Studio Code
   * Install the VSCode found on their [official website](https://code.visualstudio.com/)
