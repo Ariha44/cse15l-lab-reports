@@ -3,7 +3,7 @@
 ## Steps in Logging Into a Course-Specific Account on UCSD’s ieng6 Server
 
 1. Installing Visual Studio Code
-  * Install VScode using their [official website](https://code.visualstudio.com/)
+  * Install the VSCode found on their [official website](https://code.visualstudio.com/)
   
   ![VS Code](vscode.png)
   * Open the installed package and follow the setup instructions
