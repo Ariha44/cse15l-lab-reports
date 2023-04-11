@@ -22,7 +22,7 @@
 
 
 3. Trying Some Commands
- * Run commands such as `cd`, `ls`, `pwd`, `mkdir`, and `cp`
+ * Experiment with commands such as `cd`, `ls`, `pwd`, `mkdir`, and `cp`
  * Exit out of the remove server using the command `exit` or the keys Ctrl-D
 
  ![Commands](commands.png)
