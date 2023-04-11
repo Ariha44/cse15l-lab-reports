@@ -9,7 +9,6 @@
   * Open the installed package and follow the setup instructions
   * When it has finished installing, access VSCode by finding it in its set destination
 
-
 2. Remotely Connecting
 
  * If you are using a Windows device, please install [Git for Windows](https://gitforwindows.org/) and set VSCode's default terminal to use [Git Bash]([https://gitforwindows.org/](https://stackoverflow.com/a/50527994))
