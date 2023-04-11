@@ -3,11 +3,10 @@
 ## Steps in Logging Into a Course-Specific Account on UCSD's ieng6 server
 
 1. Installing Visual Studio Code
-  * Install the VSCode found on their [official website](https://code.visualstudio.com/)
-  
+ * Install VSCode using their [official website](https://code.visualstudio.com/)
   ![VS Code](vscode.png)
-  * Open the installed package and follow the setup instructions
-  * When it has finished installing, access VSCode by finding it in its set destination
+ * Open the installed package and follow the setup instructions
+ *  When it has finished installing, access VSCode by finding it in its set destination
 
 
 2. Remotely Connecting
@@ -17,12 +16,10 @@
     `ssh cs15lsp23zz@ieng6.ucsd.edu`
   * Read the instructions that show after entering the command to connect to the server. When asked for your password, enter the course account's password.
   * Here is an example of a successful connection:
-  
   ![Remote Connection](Connection.png)
 
 
 3. Trying Some Commands
  * Experiment with commands such as `cd`, `ls`, `pwd`, `mkdir`, and `cp`
  * Exit out of the remove server using the command `exit` or the keys Ctrl-D
-
  ![Commands](commands.png)
