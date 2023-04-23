@@ -21,13 +21,14 @@
  * `mkdir` command creates directories or subdirectories
  * `cp` command copies files or directories
 
-
++=======+=======+
 | Commands      | Description |
-| ----------- | ----------- |
++=======+=======+
 | `cd`  | changes directories       |
 | `ls`   | lists files on the current or specified directory|
 | `pwd` | prints the working directory     |
 | `mkdir`   | creates directories or subdirectories |
 | `cp`  | copies files or directories |
++=======+=======+
  * Exit out of the remove server using the command `exit` or the keys Ctrl-D
  ![Commands](commands.png)
