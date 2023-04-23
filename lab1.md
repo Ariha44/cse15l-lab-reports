@@ -23,7 +23,7 @@
 | Commands      | Description |
 | ----------- | ----------- |
 | `cd`  | changes directories       |
-| `ls`   | lists files on the current or specified directory        |
+| `ls`   | lists files on the current or specified directory|
 | `pwd` | prints the working directory     |
 | `mkdir`   | creates directories or subdirectories |
 | `cp`  | copies files or directories |
