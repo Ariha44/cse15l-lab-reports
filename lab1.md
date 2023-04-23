@@ -22,7 +22,7 @@
  * `cp` command copies files or directories
 
 | Commands      | Description |
-|----------------|
+| -------- | ------- |
 | `cd`  | changes directories       |
 | `ls`   | lists files on the current or specified directory|
 | `pwd` | prints the working directory     |
