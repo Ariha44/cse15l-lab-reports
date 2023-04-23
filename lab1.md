@@ -15,11 +15,6 @@
   ![Remote Connection](Connection.png)
 3. Trying Some Commands
  * Experiment with commands such as `cd`, `ls`, `pwd`, `mkdir`, and `cp`
- * `cd` command changes directories
- * `ls` command lists files on the current or specified directory
- * `pwd` command prints the working directory
- * `mkdir` command creates directories or subdirectories
- * `cp` command copies files or directories
 
 | Commands | Description | 
 | -------- | ------- |
