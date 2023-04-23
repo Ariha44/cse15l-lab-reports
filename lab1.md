@@ -31,3 +31,5 @@
 
  * Exit out of the remove server using the command `exit` or the keys Ctrl-D
  ![Commands](commands.png)
+ * As shown by the image above, I used commands `pwd`, `ls -lat`, and `exit`. 
+ > `ls -lat` lists all visible and hidden files and directories in the working directory with information such as the date the contents were modified and the size of each of them.
