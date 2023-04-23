@@ -15,5 +15,17 @@
   ![Remote Connection](Connection.png)
 3. Trying Some Commands
  * Experiment with commands such as `cd`, `ls`, `pwd`, `mkdir`, and `cp`
+ * `cd` command changes directories
+ * `ls` command lists files on the current or specified directory
+ * `pwd` command prints the working directory
+ * `mkdir` command creates directories or subdirectories
+ * `cp` command copies files or directories
+| Commands      | Description |
+| ----------- | ----------- |
+| `cd`  | changes directories       |
+| `ls`   | lists files on the current or specified directory        |
+| `pwd` | prints the working directory     |
+| `mkdir`   | creates directories or subdirectories |
+| `cp`  | copies files or directories |
  * Exit out of the remove server using the command `exit` or the keys Ctrl-D
  ![Commands](commands.png)
