@@ -20,6 +20,8 @@
  * `pwd` command prints the working directory
  * `mkdir` command creates directories or subdirectories
  * `cp` command copies files or directories
+
+
 | Commands      | Description |
 | ----------- | ----------- |
 | `cd`  | changes directories       |
