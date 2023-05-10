@@ -2,7 +2,7 @@
 
 ## Researching Commands
 
-1. Choosing a command to experiment with by using command-line options
+# Choosing a command to experiment with by using command-line options
 
 | Commands | Description | 
 | -------- | ------- |
@@ -12,9 +12,9 @@
 
  * For this lab report, I chose the `grep` command to experiment
 
-2. Using command-line options
+# Using command-line options
  * The first command-line option I used was `n`, which displays the lines and their respective line numbers
- * Example 1 Input:
+ 1. Example 1 Input:
 ```
 grep -e "welcome" -e "welcome"  technical/biomed/*.txt
 ```
@@ -28,7 +28,7 @@ technical/biomed/gb-2001-2-11-research0046.txt:737:          these strains would
 technical/biomed/gb-2002-3-9-research0051.txt:12:        process, an impetus that is particularly welcome because
 ```
  * As we can see, the terminal displayed the lines that contained string "welcome" in it and its line number after `.txt:`.
- * Example 2 Input:
+ 2. Example 2 Input:
 ```
 grep -n "welcome" technical/government/*/*.txt
 ```
