@@ -93,7 +93,6 @@ The third command-line option I used was `-c`, which prints the count of number 
  * **Example 5 Input:**
 ```
 grep -c "welcome" technical/biomed/gb-2001-2-11-research0046.txt
-
 ``` 
  * **Example 5 Output:**
 ```
