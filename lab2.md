@@ -27,11 +27,12 @@ technical/biomed/1472-6947-3-8.txt:624:        biomedical data sets. Public comm
 technical/biomed/gb-2001-2-11-research0046.txt:737:          these strains would provide welcome models for exploring
 technical/biomed/gb-2002-3-9-research0051.txt:12:        process, an impetus that is particularly welcome because
 ```
- * Example 2 Input:
+ * As we can see, the terminal shows the matched lines and their line numbers using the string "welcome" in the biomed directory
+ * **Example 2 Output:**
 ```
 grep -n "welcome" technical/government/*/*.txt
 ```
- * Example 2 Output:
+ * **Example 2 Output:**
 ```
 technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt:54:welcome to walk through them unimpeded and unchallenged.
 technical/government/Env_Prot_Agen/multi102902.txt:2619:last few years has been a welcome change to boilermakers.
