@@ -13,7 +13,7 @@
  * For this lab report, I chose the `grep` command to experiment
 
 # Using command-line option `-n`
- * The first command-line option I used was `-n`, which displays the lines and their respective line numbers. Source used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+The first command-line option I used was `-n`, which displays the lines and their respective line numbers. Source used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
  * **Example 1 Input:**
 ```
 grep -n "welcome" technical/biomed/*.txt
@@ -46,7 +46,7 @@ technical/government/Media/Lockyer_Warns.txt:31:Elena Popp, executive director o
 
 
 # Using command-line option `-A num`
- * The second command-line option I used was `-A num`, which prints the searched line and the lines after. Source used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+The second command-line option I used was `-A num`, which prints the searched line and the lines after. Source used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
  * **Example 3 Input:**
 ```
 grep -A 737 "welcome" technical/biomed/gb-2001-2-11-research0046.txt
@@ -89,7 +89,7 @@ grep -A 3500 "A 284 Microsoft Excel file" technical/biomed/gb-2001-2-11-research
  * As we can see, we were able to output the last paragraph in the gb-2001-2-11-research0046.txt file with the matched string "A 284 Microsoft Excel file". This command-line option is useful in finding a string and the results after the match.
 
 # Using command-line option `-c`
- * The third command-line option I used was `-c`, which prints the count of number of matches. Source used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+The third command-line option I used was `-c`, which prints the count of number of matches. Source used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
  * **Example 5 Input:**
 ```
 grep -c "welcome" technical/biomed/gb-2001-2-11-research0046.txt
@@ -119,7 +119,7 @@ technical/government/Post_Rate_Comm/WolakSpeech_usps.txt:0
  * The output shows all the counts of "welcome" in all the text files in the government directory. Using `-c` is great for knowing how common a word is in specified files.
 
 # Using command-line option `-v`
- * The last command-line option I used was `-v`, which outputs the lines that do not match the given pattern. Source used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+The last command-line option I used was `-v`, which outputs the lines that do not match the given pattern. Source used: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
  * **Example 7 Input:**
 ```
 grep -v "[aeiouAEIOU]" technical/biomed/gb-2001-2-11-research0046.txt      
