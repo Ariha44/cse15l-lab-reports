@@ -14,7 +14,7 @@
 
 # Using command-line options
  * The first command-line option I used was `n`, which displays the lines and their respective line numbers
- 1. Example 1 Input:
+ Example 1.
 ```
 grep -e "welcome" -e "welcome"  technical/biomed/*.txt
 ```
@@ -28,7 +28,7 @@ technical/biomed/gb-2001-2-11-research0046.txt:737:          these strains would
 technical/biomed/gb-2002-3-9-research0051.txt:12:        process, an impetus that is particularly welcome because
 ```
  * As we can see, the terminal displayed the lines that contained string "welcome" in it and its line number after `.txt:`.
- 2. Example 2 Input:
+ Example 2.
 ```
 grep -n "welcome" technical/government/*/*.txt
 ```
