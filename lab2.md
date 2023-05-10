@@ -76,26 +76,18 @@ grep -A 737 "welcome" technical/biomed/gb-2001-2-11-research0046.txt
  * The output successfully shows the only mention of "welcome" in the gb-2001-2-11-research0046.txt file (determined by the output of Example 1) and the lines after.
  * **Example 4 Output:**
 ```
-grep -n "welcome" technical/government/*/*.txt
+grep -A 3500 "A 284 Microsoft Excel file" technical/biomed/gb-2001-2-11-research0046.txt    
 ```
  * **Example 4 Output:**
 ```
-technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt:54:welcome to walk through them unimpeded and unchallenged.
-technical/government/Env_Prot_Agen/multi102902.txt:2619:last few years has been a welcome change to boilermakers.
-technical/government/Gen_Account_Office/d0269g.txt:1396:inquiries. This "welcome" package is hand delivered during a site
-technical/government/Gen_Account_Office/gg96118.txt:1392:for the results of their programs. Managers generally welcomed
-technical/government/Gen_Account_Office/Testimony_cg00010t.txt:22:the General Accounting Office (GAO). We welcome this opportunity to
-technical/government/Media/Legal_Aid_attorney.txt:50:welcomed their first child into their lives last week, Sophia Clare
-technical/government/Media/Lockyer_Warns.txt:31:Elena Popp, executive director of the foundation, welcomed the
+        A 284 Microsoft Excel file that can be used to compare
+        the overall genetic similarity of any two strains that are
+        members of the BXN set. This file is an extended version of
+        Table 6.
+        Click here for additional data file
 ```
- * In this example, I looked into the government directory for text files that had "welcome" in it and found the line numbers. Command option `e` can be useful in searching for the lines that have specific keyword by using the given location.
+ * As we can see, we were able to output the last paragraph in the gb-2001-2-11-research0046.txt file with the matched string "A 284 Microsoft Excel file". This command-line option is useful in finding a string and the results after the match.
 
-
-
-
-
-
-  
   
 3. Trying Some Commands
  * Experiment with commands such as `cd`, `ls`, `pwd`, `mkdir`, and `cp`
