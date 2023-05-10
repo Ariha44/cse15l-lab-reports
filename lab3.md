@@ -8,7 +8,7 @@
 | -------- | ------- |
 | `less` | displays text files one page at a time |
 | `find` | searches and locates files and directories using specified conditions |
-| `grep` | searchs and matches text files using specified string(s) | 
+| `grep` | searches and matches text files using specified string(s) | 
 
  * For this lab report, I chose the `grep` command to experiment
 
