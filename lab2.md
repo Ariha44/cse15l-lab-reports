@@ -12,11 +12,11 @@
 
  * For this lab report, I chose the `grep` command to experiment
 
-# Using command-line options
+# Using command-line option `n`
  * The first command-line option I used was `n`, which displays the lines and their respective line numbers
  * **Example 1 Input:**
 ```
-grep -e "welcome" -e "welcome"  technical/biomed/*.txt
+grep -n "welcome" technical/government/*.txt
 ``` 
  * **Example 1 Output:**
 ```
