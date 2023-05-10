@@ -14,11 +14,11 @@
 
 # Using command-line options
  * The first command-line option I used was `n`, which displays the lines and their respective line numbers
- Example 1.
+ 1. Input
 ```
 grep -e "welcome" -e "welcome"  technical/biomed/*.txt
 ```
- * Output:
+Output
 ```
 technical/biomed/1471-2458-2-25.txt:167:          moderator, and note taker welcomed and oriented the
 technical/biomed/1471-2458-2-25.txt:172:          opinions were welcomed, no answer was right or wrong and
