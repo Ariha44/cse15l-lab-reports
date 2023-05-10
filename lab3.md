@@ -2,7 +2,7 @@
 
 # Researching Commands
 
-## Choosing a command to experiment with by using command-line options
+## Choosing a command to experiment with using command-line options
 
 | Commands | Description | 
 | -------- | ------- |
