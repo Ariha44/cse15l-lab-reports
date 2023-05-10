@@ -74,7 +74,7 @@ grep -A 737 "welcome" technical/biomed/gb-2001-2-11-research0046.txt
         Click here for additional data file
 ```
  * The output successfully shows the only mention of "welcome" in the gb-2001-2-11-research0046.txt file (determined by the output of Example 1) and the lines after.
- * **Example 4 Output:**
+ * **Example 4 Input:**
 ```
 grep -A 3500 "A 284 Microsoft Excel file" technical/biomed/gb-2001-2-11-research0046.txt    
 ```
@@ -88,20 +88,66 @@ grep -A 3500 "A 284 Microsoft Excel file" technical/biomed/gb-2001-2-11-research
 ```
  * As we can see, we were able to output the last paragraph in the gb-2001-2-11-research0046.txt file with the matched string "A 284 Microsoft Excel file". This command-line option is useful in finding a string and the results after the match.
 
+# Using command-line option `-c`
+ * The third command-line option I used was `-c`, which prints the count of number of matches.
+ * **Example 5 Input:**
+```
+grep -c "welcome" technical/biomed/gb-2001-2-11-research0046.txt
+
+``` 
+ * **Example 5 Output:**
+```
+1
+```
+ * As we know from Example 1's output, the gb-2001-2-11-research0046.txt file only has one line with "welcome in it". Command-line option `-c` confirms the count of lines with "welcome" in it with the number 1.
+ * **Example 6 Input:**
+```
+grep -c "welcome" technical/government/*/*.txt
+```
+ * **Example 6 Output:**
+```
+technical/government/About_LSC/Comments_on_semiannual.txt:0
+technical/government/About_LSC/commission_report.txt:0
+technical/government/About_LSC/conference_highlights.txt:0
+technical/government/About_LSC/CONFIG_STANDARDS.txt:0
+...
+technical/government/Post_Rate_Comm/Mitchell_spyros-first-class.txt:0
+technical/government/Post_Rate_Comm/Redacted_Study.txt:0
+technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:0
+technical/government/Post_Rate_Comm/WolakSpeech_usps.txt:0 
+```
+ * The output shows all the counts of "welcome" in all the text files in the government directory. Using `-c` is great for knowing how common a word is in specified files.
+
+# Using command-line option `-v`
+ * The last command-line option I used was `-v`, which outputs the lines that do not match the given pattern
+ * **Example 7 Input:**
+```
+grep -v "[aeiouAEIOU]" technical/biomed/gb-2001-2-11-research0046.txt      
+``` 
+ * **Example 7 Output:**
+```
+C
+            c /(1 + 6
+            B :
+          1,536 SDPs.
+          4).
+          PCR
+        7.
+```
+ * I used the command-line `-v` to display all the lines in gb-2001-2-11-research0046.txt file that do not have any vowels in it. We can see that only seven lines with characters are given as output from the whole file. The gb-2001-2-11-research0046.txt has 1101 lines in total: 
+```
+wc -l technical/biomed/gb-2001-2-11-research0046.txt
+``` 
+```
+1101 technical/biomed/gb-2001-2-11-research0046.txt
+```
+ * **Example 8 Input:**
+```
+grep -vc "[aeiouAEIOU]" technical/biomed/gb-2001-2-11-research0046.txt
+```
+ * **Example 8 Output:**
+```
+75
+```
+ * We used `-c` with `-v` to count how many lines do not have any vowels in the gb-2001-2-11-research0046.txt. Example 7's output shows 7 lines with characters, but I believe the rest of the 68 lines are blank lines that were counted as lines with no vowels. `-v` is a powerful tool in filtering lines in given files or directories.
   
-3. Trying Some Commands
- * Experiment with commands such as `cd`, `ls`, `pwd`, `mkdir`, and `cp`
-
-| Commands | Description | 
-| -------- | ------- |
-| `cd` | changes directories |
-| `ls` | lists files on the current or specified directory|
-| `pwd` | prints the working directory | 
-| `mkdir` | creates directories or subdirectories | 
-| `cp` | copies files or directories |
-
- * Exit out of the remove server using the command `exit` or the keys Ctrl-D
- ![Commands](commands.png)
- * As shown by the image above, I used commands `pwd`, `ls -lat`, and `exit`. 
- * Note: `ls -lat` lists all visible and hidden files and directories in the working directory with information such as the date the contents were modified and the size of each of them.
-
