@@ -5,17 +5,9 @@
 1. Choosing a command to experiment with by using command-line options
 | Commands | Description | 
 | -------- | ------- |
-| `less` | displays text files one page at atime |
-| `find` | searches and locates files and directories using specified conditions|
+| `less` | displays text files one page at a time |
+| `find` | searches and locates files and directories using specified conditions |
 | `grep` | searchs and matches text files using specified string(s) | 
-
-| Commands | Description | 
-| -------- | ------- |
-| `cd` | changes directories |
-| `ls` | lists files on the current or specified directory|
-| `pwd` | prints the working directory | 
-| `mkdir` | creates directories or subdirectories | 
-| `cp` | copies files or directories |
 
  * For this lab report, I chose the `grep` command to experiment
 
