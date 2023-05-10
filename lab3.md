@@ -134,9 +134,11 @@ C
         7.
 ```
  * I used the command-line `-v` to display all the lines in gb-2001-2-11-research0046.txt file that do not have any vowels in it. We can see that only seven lines with characters are given as output from the whole file. The gb-2001-2-11-research0046.txt has 1101 lines in total: 
+ * **Input:**
 ```
 wc -l technical/biomed/gb-2001-2-11-research0046.txt
 ``` 
+ * **Output:**
 ```
 1101 technical/biomed/gb-2001-2-11-research0046.txt
 ```
