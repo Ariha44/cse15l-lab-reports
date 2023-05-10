@@ -3,6 +3,7 @@
 ## Researching Commands
 
 1. Choosing a command to experiment with by using command-line options
+
 | Commands | Description | 
 | -------- | ------- |
 | `less` | displays text files one page at a time |
