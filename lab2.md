@@ -13,8 +13,8 @@
  * For this lab report, I chose the `grep` command to experiment
 
 # Using command-line options
- * The first command-line option I used was `n`, which displays the lines and their respective line numbers
- \ **Example 1 Input:**
+ * The first command-line option I used was `n`, which displays the lines and their respective line numbers\
+ **Example 1 Input:**
 ```
 grep -e "welcome" -e "welcome"  technical/biomed/*.txt
 ```
