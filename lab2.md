@@ -63,5 +63,5 @@ static void reverseInPlace(int[] arr) {
 * The code change addresses the issue of losing the original values in the array by having the loop only iterate half of the array to swap values.
 
 ## Part 3 - What I Learned from Lab 3
-* I learned how to use the JUnit library to create and run tests in order to debug code. I also read what is the difference between symptom and bug. The symptom is the error the user sees when running code and the bug is the flaw in the program that may have symptoms. Then using git commands such as `commit` and `push` in the lab when fixing the program reinforced my understanding of Github.
+* I learned how to use the JUnit library to create and run tests in order to debug code. I also read what is the difference between symptom and bug. The symptom is the error the user sees when running code and the bug is the flaw in the program that may have symptoms. Then in the lab, using git commands such as `commit` and `push` when fixing the program reinforced my understanding of Github.
 
