@@ -8,7 +8,7 @@
 ![screenshot1](screenshot1.png)
  * Above is the server in action by starting the server on local port 4000. I added the string "First" to it. The method that is called once I add the string are handleRequest(), which processes the url to determine what action to take. The field `str` had changed to contain "First".
 ![screenshot2](screenshot2.png) 
-The string was updated with "Second" in a new line. Method .getPath() was called to extract the path part of the URL and then used .getQuery() method to compare the expected query value. The field `str` updated again to add the string "Second" and a new line to it.
+ * The string was updated with "Second" in a new line. Method .getPath() was called to extract the path part of the URL and then used .getQuery() method to compare the expected query value. The field `str` updated again to add the string "Second" and a new line to it.
 
 ## Part 2 - Bugs from Lab 3
  * On lab 3, we worked with file ArrayExamples.java that had several bugs. Here is a part of the code that has a bug:
