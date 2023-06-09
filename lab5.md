@@ -23,6 +23,7 @@
 ## The Bug Resolved
 ![bug](bug.png)
 
- * As we can see, the student  fixed the bug by parsing the actual test output and counted the number of failures from the junit-output.txt file using the `grep` command that extracts the actual number of failures for the scoring. `grep` searches and matches text files using specified string(s). 
-  
+ * As we can see, the student  fixed the bug by parsing the actual test output and counted the number of failures from the junit-output.txt file using the `grep` command that extracts the actual number of failures for the scoring. `grep` searches and matches text files using specified string(s). It counted the number of failures in the JUnit output by searching for the string "FAILURES!!!". If there are no failures (i.e., the count is 0), it prints "All tests passed" and the score "4/4". If there are failures, it extracts the test run count from the JUnit output, prints the JUnit output, and then displays the score as "$COUNT/4", instead of having it display the score as $FAILURES/4, which would always result in 1/4 since FAILURES was set to 1.
 
+# Part 2 - Reflection
+One lesson I learned from a lab (specifically lab 6) was how to use a bash script to create an automatic grader for a programming assignment. The goal was to write a script that takes the URL of a GitHub repository as input and provides a grade based on a student-submitted code. We were provided with a starter repository that we forked to begin our implementation. We used Bash to move the student's code to a designated directory. Compilation of the tests and the student's code is performed, with feedback on the errors based on the JUnit output. Overall, this lab provided valuable hands-on experience in using bash scripts to automate the grading process and showed the importance of usin bash scripts to automate processes such as effective evaluation for student submissions in a class.
